@@ -8,11 +8,12 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   
   
- foods = ["pepperoni, "sausage"], 
- ["green olives", "green peppers"],
- ["onions]
-  puts ('I love my pizza with' + array[00] + "and"+ array[01])
-  
+results = []
+
+  src.each do |ingredient_array|
+    results << "I love #{ingredient_array[0]} and #{ingredient_array[1]} on my pizza"
+  end
+  results
   
   
    
