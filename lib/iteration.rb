@@ -8,8 +8,8 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   
   
- foods=[ ["pepperoni,s, ["grilled chicken", "pepperoni"]
-  puts ('I love my pizza with' + array[0] + "and"+ array[1])
+ foods = ["pepperoni, "sausage"], ["grilled chicken", "pepperoni"]
+  puts ('I love my pizza with' + array[00] + "and"+ array[01])
   
   
   
